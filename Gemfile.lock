@@ -1,0 +1,20 @@
+GIT
+  remote: git://github.com/rack/rack-contrib.git
+  revision: 9f5bcddba198f3b8a5d76d83ebb4aa3887b65be5
+  specs:
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rack (1.2.2)
+    rack-rewrite (1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  rack-contrib!
+  rack-rewrite
