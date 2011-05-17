@@ -55,3 +55,32 @@ a.image-link {
     vertical-align: middle; 
   } 
 }
+
+header {
+  overflow: hidden;
+}
+
+header h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+  margin: 15px 10px;
+}
+
+nav a:hover {
+  border-bottom: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 5px;
+}

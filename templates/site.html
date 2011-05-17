@@ -13,7 +13,16 @@
   </style>
 </head>
 <body>
-  <header><h1><a href="/">{{site_name}}</a></h1></header>
+  <header>
+    <h1><a href="/">{{site_name}}</a></h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
   <section id="content">
     {{& content}}
   </section>
